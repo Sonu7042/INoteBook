@@ -1,12 +1,12 @@
 {
   "name": "client",
-  "homepage": "https:/Sonu7042/github.io/Inotebook",
+  "homepage": "https:/Sonu7042.github.io/Inotebook",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "serve": "vite preview",
-    "deploy": "gh-pages -d build",
+    "deploy": "vite build && gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",

@@ -12,7 +12,7 @@ const Login = (props) => {
   const handleSubmit=async(e)=>{
     e.preventDefault()
     const {name, email, password}=credentials
-    const response=await fetch('http://localhost:9000/login',{
+    const response=await fetch('https://saving-note-inotebook.onrender.com/login',{
       method:"POST",
       headers:{
         'Content-Type':"application/json",

@@ -3,7 +3,7 @@ import NoteContext from './NoteContext'
 
 const NoteState = ({ children }) => {
 
-  const host = 'http://localhost:9000'
+  const host = 'https://saving-note-inotebook.onrender.com'
 
   const [notes, setNotes] = useState([])
 
